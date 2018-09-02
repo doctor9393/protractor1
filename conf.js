@@ -6,6 +6,12 @@ exports.config = {
         console.log("--------------------------Message before start of SERVER----------------------------------------")
 
     },
+    params: {
+        login: {
+          email: 'default',
+          password: 'default'
+        }
+      },
     multiCapabilities: [{
         'browserName': 'firefox'
       }, {
